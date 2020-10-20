@@ -10,7 +10,7 @@ const ItemRow = styled.div`
   flex-direction: row;
   justify-content: space-between;
   @media screen and (max-width: 680px) {
-    flex-direction: column;∏
+    flex-direction: column;
   }
 `;
 
@@ -18,7 +18,7 @@ const StyledAlert = styled(Alert)`
   width: 100%;
   margin: 1.5rem;
   @media screen and (max-width: 680px) {
-    width: auto;∏
+    width: auto;
   }
 `;
 
