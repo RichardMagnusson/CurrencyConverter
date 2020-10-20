@@ -1,6 +1,6 @@
-import * as React from 'react';
+import 'fontsource-roboto';
+import React from 'react';
 import { render } from 'react-dom';
-
-const App: React.FC = () => <div>Currency converter</div>;
+import App from './App';
 
 render(<App />, document.getElementById('app'));

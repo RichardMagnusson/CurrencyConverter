@@ -1,20 +1,17 @@
 # Currency converter
 
-<a href="http://www.valuta.se">
-  <img alt="Valuta" src="media/valuta.png" width="480">
-</a>
+## General
 
-_This image is meant to explain the functionality_
+- Currency Exchange API: [fixer.io](https://fixer.io)
+- HTTP-client: [Apollo-client](https://www.apollographql.com/docs/react/) using apollo-link-rest for REST API support
+- UI-framework: [Material-UI](https://material-ui.com/getting-started/usage/)
+- Desired techniques used ✌🏽
 
-## Task
+Based on starter project, so still run `npm install` and `npm start`
 
-Create a small react app that let the user convert an amount between currencies.
+### Note
 
-This project can be used as a starter. To get started simply clone this repo and run `npm install` and `npm start`
-
-Styling is not important in this test and it's okay to use eg. bootstrap. For your custom styles we encourage you to use [Styled components 💅](https://github.com/styled-components/styled-components)
-
-To get exchange rates you can use [fixer.io](https://fixer.io/). (You need to create an account to get a free access key)
+For REST API calls only, [Axois](https://github.com/axios/axios) or the browser supported [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) might me considered more suitable or atleast sufficient, however I thought it would be nice to incorporate Apollo-client since, if I recall correctly, it is used in your code base :)
 
 ### Desired techniques
 
@@ -27,5 +24,3 @@ To submit the test, simply push your branch and make a pull request to master.
 
 - You should be able to convert an amount in one currency to another.
 - You should be able to change what currencies to convert between.
-
-Good luck!
